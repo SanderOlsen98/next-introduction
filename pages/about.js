@@ -4,10 +4,10 @@ import Layout from "../components/layout/Layout";
 export default function Home() {
 	return (
 		<Layout>
-			<Head />
+			<Head title="About" />
 
 			<div className="container">
-				<h1>Home page</h1>
+				<h1>About page</h1>
 			</div>
 		</Layout>
 	);
