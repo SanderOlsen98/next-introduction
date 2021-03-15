@@ -12,7 +12,11 @@ export default function Home(props) {
 			<h1>Home page</h1>
 
 			{props.games.map((game) => {
-				return <h3 key={game.slug}>{game.name}</h3>;
+				return (
+					<a key={game.slug} href={`game/${game.slug}`}>
+						{game.name}
+					</a>
+				);
 			})}
 		</Layout>
 	);
