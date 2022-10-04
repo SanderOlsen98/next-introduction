@@ -1,14 +1,20 @@
+import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
 
-export default function Home() {
-	return (
-		<Layout>
-			<Head title="About" />
+export default function About() {
+  return (
+    <>
+      <Head>
+        <title>About</title>
+      </Head>
+      <Layout>
+        <Head />
 
-			<div className="container">
-				<h1>About page</h1>
-			</div>
-		</Layout>
-	);
+        <div className="container">
+          <h1>About Page</h1>
+        </div>
+      </Layout>
+    </>
+  );
 }
