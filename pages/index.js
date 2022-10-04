@@ -2,13 +2,13 @@ import Head from "next/head";
 import Layout from "../components/layout/Layout";
 
 export default function Home() {
-	return (
-		<Layout>
-			<Head />
+  return (
+    <Layout>
+      <Head />
 
-			<div className="container">
-				<h1>Home page</h1>
-			</div>
-		</Layout>
-	);
+      <div className="container">
+        <h1>Home Page</h1>
+      </div>
+    </Layout>
+  );
 }
